@@ -37,6 +37,9 @@ text-align: center;
     color: rgba(255, 255, 255, 0.7)
 }
 
+.button.is-info.is-hovered, .button.is-info:hover{
+    background-color: #68b322;
+}
 .button.is-info{
     background-color: #68b322;
 }
