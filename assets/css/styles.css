@@ -1,0 +1,49 @@
+#hero{
+    background-image: url(../images/green-bkg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body{
+    background-image: url(../images/galaxy-bkg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hero-body{
+text-align: center;
+}
+
+.hero.is-info .title{
+    text-align: center;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 0.3em;
+}
+
+.card{
+    background-color: #1b0e35;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.title{
+    color: #fff;
+}
+
+.subtitle{
+    color: rgba(255, 255, 255, 0.7)
+}
+
+.button.is-info{
+    background-color: #68b322;
+}
+
+.footer{
+    background-color: #214202;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 1.5rem 1.5rem 2rem 1.5rem;
+    margin-top: 2em;
+}
