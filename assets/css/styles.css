@@ -50,3 +50,26 @@ text-align: center;
     padding: 1.5rem 1.5rem 2rem 1.5rem;
     margin-top: 2em;
 }
+
+.tabs a{
+    color: white;
+}
+
+.tabs.is-toggle li.is-active a{
+    background-color: #318b19;
+    color: white;
+}
+
+#locacionesstyle div, #episodesstyle div{
+    padding: 0.5em;
+}
+
+.box, .box .content p strong, .box h3{
+    background-color: rgb(27,14,53);
+    color: white!important;
+}
+
+.searchbar-none{
+    display: none;
+}
+

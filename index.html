@@ -13,10 +13,10 @@
 
 
 <body>
-  <div class="modal is-active">
+  <div class="modal">
     <div class="modal-background"></div>
     <div class="modal-content">
-      <div class="box">
+    <!--  <div class="box">
         <article class="media">
           <div class="media-left">
             <figure class="image is-64x64">
@@ -47,8 +47,8 @@
             </nav>
           </div>
         </article>
-      </div>
-</div>
+      </div>-->
+
     </div>
     <button class="modal-close is-large" aria-label="close"></button>
   </div>
@@ -59,15 +59,34 @@
         Rick & Morty
       </p>
       <p class="subtitle">
-        Conocé a los personajes
+        Meet the characters!
       </p>
     </div>
   </section>
 
-  <div class="container mb-6">
+  <div class="tabs is-toggle is-centered">
+    <ul>
+      <li class="is-active" id="personajes">
+        <a>
+          <span>Characters</span>
+        </a>
+      </li>
+      <li id="locaciones">
+        <a>
+          <span>Locations</span>
+        </a>
+      </li>
+      <li id="episodios">
+        <a>
+          <span>Episodes</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="container mb-6" id="searchbar">
     <div class="field is-grouped">
         <p class="control is-expanded">
-          <input class="input input_search" type="text" placeholder="Buscar">
+          <input class="input input_search" type="text" placeholder="Search">
         </p>
         <p class="control">
           <a class="button is-info handle_search">
@@ -79,7 +98,7 @@
       </div>
 </div>
 
-  <div class="container">
+  <div class="container" id="containermargin">
     <div class="columns is-multiline is-one-quarter-desktop is-half-tablet is-full-mobile grid">
       
     </div>
@@ -88,7 +107,7 @@
   <footer class="footer">
     <div class="content has-text-centered">
       <p>
-       Gracias por entrar a nuestro sitio!
+       Hope you enjoyed our content :)
       </p>
     </div>
   </footer>
